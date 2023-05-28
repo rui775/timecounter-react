@@ -10,7 +10,7 @@ const TimeCounter = () => {
     useEffect(() => {
         setInterval(() => {
             setCurrentTime(new Date());
-        }, 1000)
+        }, 120000)
     }, [])
 
     useEffect(() => {
